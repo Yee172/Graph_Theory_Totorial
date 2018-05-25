@@ -7,7 +7,7 @@
 ####0.1.1 State problem
 
 [Description]</br>
-Etéreo is always curious about the mystery of numbers. This time, he wrote $N^{2}$ numbers from $1$ to $N^{2}$ on the paper, and arranged these numbers into a matrix of $N \times N$. NHe was surprised to find that the sum of the numbers in each row, column, and two main diagonals in this square is not the same. He wants more squares, but he can't write it again. So he rushed to come to you and ask you to give him a square array with $N$ on the side that satisfies the above nature.
+Etéreo is always curious about the mystery of numbers. This time, he wrote $N^{2}$ numbers from $1$ to $N^{2}$ on the paper, and arranged these numbers into a matrix of $N \times N$. He was surprised to find that the sum of the numbers in each row, column, and two main diagonals in this square is not the same. He wants more squares, but he can't write it again. So he rushed to come to you and ask you to give him a square array with $N$ on the side that satisfies the above nature.
 
 [Input]</br>
 Enter a total of one line, an integer $N$ $(3 \leqslant N \leqslant 1000)$.
