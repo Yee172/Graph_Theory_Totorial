@@ -1,10 +1,10 @@
 # <center>[Graph Theory 1](https://github.com/Yee172/Graph_Theory_Totorial/blob/master/tutorial/raw/Graph_Theory_1.md)</center>
 
-##0.Warm up
+## 0.Warm up
 
-###0.1 Mind-blowing
+### 0.1 Mind-blowing
 
-####0.1.1 State problem
+#### 0.1.1 State problem
 
 [Description]</br>
 Etéreo is always curious about the mystery of numbers. This time, he wrote $N^{2}$ numbers from $1$ to $N^{2}$ on the paper, and arranged these numbers into a matrix of $N \times N$. He was surprised to find that the sum of the numbers in each row, column, and two main diagonals in this square is not the same. He wants more squares, but he can't write it again. So he rushed to come to you and ask you to give him a square array with $N$ on the side that satisfies the above nature.
@@ -37,7 +37,7 @@ for i in range(n):
 
 #### 0.1.3 Monkey solution
 
-#####0.1.3.1 A brief introduction of Monkey Sort
+##### 0.1.3.1 A brief introduction of Monkey Sort
 
 - Infinite monkey theorem
 
@@ -184,15 +184,15 @@ Thus, the larger $N$ we have, the more possible that a random matrix satisfies t
    print('\n'.join(' '.join(map(str, m[x: x + n])) for x in range(0, n * n, n)))
    ```
 
-###0.2 Extension (Other weird sort algorithm)
+### 0.2 Extension (Other weird sort algorithm)
 
-####0.2.1 Sleep sort
+#### 0.2.1 Sleep sort
 
 In general, sleep sort works by starting a separate task for each item to be sorted, where each task sleeps for an interval corresponding to the item's sort key, then emits the item. Items are then collected sequentially in time.
 
 [Codes portal](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
 
-####0.2.2 Spaghetti Sort
+#### 0.2.2 Spaghetti Sort
 
 A) Put a table in the kitchen (an horizontal segment in the box)</br>
 B) Hold the spaghetti over the table (a sequence of vertical segments across the hand segment)</br>
@@ -214,9 +214,9 @@ D) Repeat B-C until everyone agrees that this array is sorted well
 
 ---
 
-##1.Preliminary Knowledge
+## 1.Preliminary Knowledge
 
-###1.1 Basic data structure
+### 1.1 Basic data structure
 
 <img src="https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.ikjc300/ikjc3x01.gif" style="zoom:200%"/>
 
@@ -232,7 +232,7 @@ A helpful analogy is to think of a stack of books, you can remove only the top b
 
 <img src="https://i.stack.imgur.com/fUtR1.png" style="zoom:50%"/>
 
-####1.1.2 Queue
+#### 1.1.2 Queue
 
 A stack is a container of objects that are inserted and removed according to the **first-in first-out (FIFO)** principle.</br>
 In the queue only two operations are allowed:
@@ -275,7 +275,7 @@ The next time the same subproblem occurs, instead of recomputing its solution, o
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBg9JcZgNbPEkhiXhjUmV_Njm8m1Ga1QYnOH2mhKpRe6omW886" style="zoom:200%"/>
 
-####1.5.2 Directed graphs 
+#### 1.5.2 Directed graphs 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7beC1Q17V-mSY2iBNSo8FLd0wTccsWFynfs69kotEF26F_aw7hg" style="zoom:200%"/>
 
@@ -283,7 +283,7 @@ The next time the same subproblem occurs, instead of recomputing its solution, o
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Maze_simple.svg/220px-Maze_simple.svg.png" style="zoom:300%"/>
 
-####1.6.1 Depth-First Search (DFS)
+#### 1.6.1 Depth-First Search (DFS)
 
 Depth-First Search with a Stack
 
@@ -355,7 +355,7 @@ procedure BFS(G, v):
 
 ## 2.Representations of graphs
 
-###2.1 Notations
+### 2.1 Notations
 
 $$
 G(V, E) \to \text{Graph}\\
@@ -371,7 +371,7 @@ $$
 
 ### 2.2 Adjacency matrix and adjacency list
 
-<img src="http://img3.imgtn.bdimg.com/it/u=3671843933,1710324746&fm=27&gp=0.jpg" style="zoom:110%"/>
+<img src="https://github.com/Yee172/Graph_Theory_Totorial/blob/master/figs/online/fig001.jpg?raw=true" style="zoom:110%"/>
 $$
 \begin{align}
 (b) &\to \text{Adjacency matrix}\\
@@ -441,7 +441,7 @@ struct edge
 
 ---
 
-##3.Introduction to the shortest path question
+## 3.Introduction to the shortest path question
 
 In graph theory, the shortest path problem is the problem of finding a path between two vertices in a graph such that the sum of the weights of its constituent edges is minimized.
 
@@ -467,7 +467,7 @@ $$
 
 ---
 
-##4.Shortest path algorithms
+## 4.Shortest path algorithms
 
 ### 4.0 Initialization
 
@@ -544,7 +544,7 @@ $$
 \text{Time complexity} \quad : \quad O(|E| \log |V|)\\
 $$
 
-###4.2 Floyd Algorithm (Floyd-Warshall Algorithm) 
+### 4.2 Floyd Algorithm (Floyd-Warshall Algorithm) 
 
 $$
 \text{Floyd $=$ DP $\cup$ Enumeration}
@@ -573,7 +573,7 @@ $$
 \end{align}
 $$
 
-###4.3 Bellman-Ford algorithm
+### 4.3 Bellman-Ford algorithm
 
 $$
 \text{Bellman-Ford $=$ DP $\cup$ Brute force}
@@ -679,7 +679,7 @@ $$
 
 ---
 
-##5.Applications
+## 5.Applications
 
 ### 5.1 Location analysis
 
@@ -736,7 +736,7 @@ You want to determine the number of students whose ranks can be precisely determ
 
 ---
 
-##6.Acknowledgements
+## 6.Acknowledgements
 
 Thanks to the theoretical support from [`Wavator`](http://codeforces.com/profile/Wavator) and [`VinceBlack`](http://codeforces.com/profile/VinceBlack).
 
