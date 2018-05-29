@@ -205,7 +205,7 @@ F) Repeat D-E until the hand touches the table
 
 <img src="https://pbs.twimg.com/media/CSA9owwUsAA7_B1.png" style="zoom:150%"/>
 
-####0.2.3 Calling-a-stag-a-horse sort
+#### 0.2.3 Calling-a-stag-a-horse sort
 
 A) Gather a bunch of people and show them your array</br>
 B) Ask them if this array is sorted</br>
@@ -315,7 +315,7 @@ procedure DFS(G, v):
 
 [Demo from stanford](https://cs.stanford.edu/people/abisee/tutorial/dfs.html)
 
-####1.6.2 Breadth-First Search (BFS)
+#### 1.6.2 Breadth-First Search (BFS)
 
 Breadth-First Search with a Queue
 
@@ -422,7 +422,7 @@ A + A^{2} =
 $$
 which imples that there are $2$ distinct paths from vertex $1$ to vertex $2$, $2$ distinct paths from vertex $2$ to vertex $3$, $4$ distinct paths from vertex $1$ to vertex $3$.
 
-###2.3 Normal attributes of vertex and edge
+### 2.3 Normal attributes of vertex and edge
 
 As mentioned, the most used attributes of vertex in simple graph is the **degree** of vertex or **indegree** of vertex and **outdegree** of vertex.
 
